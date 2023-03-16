@@ -1,0 +1,21 @@
+body{
+    margin: 20px;
+    background-color: #EEEEEE;
+}
+#errorName, #errorMessage {
+    color: red;
+}
+
+.resultItem{
+    /*width: 50%;*/
+    margin-bottom: 10px;
+    background-color: #D7CCC8;
+    border-radius: 5%;
+    padding: 10px 25px 0px 25px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+.result{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
